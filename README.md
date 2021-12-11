@@ -19,4 +19,6 @@ Directory to deploy: It should default to what is in netlify.toml. `enter` to le
 
 Netlify functions folder: It should default to what is in netlify.toml. `enter` to leave it unchanged.
 
+After the site is created: `netlify open --admin` to reach the admin page or `netlify open --site` to see the site in production.
+
 

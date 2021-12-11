@@ -1,8 +1,10 @@
+require('dotenv').config()
+
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const handler = async (event) => {
   try {
     const subject = event.queryStringParameters.name || 'World'
-    if (subject != "Bob")
+    if (subject != process.env.NETLIFY_NAME)
       return { statusCode: 500, body: "This call is not authorized" }
     return {
       statusCode: 200,
