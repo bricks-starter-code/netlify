@@ -1,0 +1,24 @@
+{
+  "name": "bricksseeds",
+  "version": "1.0.0",
+  "description": "Run locally with netlify dev\r Functions are available at ./.netlify/functions/\"name\"",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bricksSeeds/netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bricksSeeds/netlify/issues"
+  },
+  "homepage": "https://github.com/bricksSeeds/netlify#readme"
+}
